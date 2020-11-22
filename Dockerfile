@@ -4,5 +4,5 @@ ADD cloudreve ./cloudreve
 ADD conf.ini ./conf.ini
 ADD run.sh ./run.sh
 ADD a.py ./a.py
-RUN yum update -y && yum install glibc-utils glibc-devel glibc-headers epel* wget curl nano python3 -y && chmod +x ./cloudreve && chmod +x ./run.sh
+RUN yum update -y && yum install glibc-utils glibc-devel glibc-headers epel* wget curl nano python3 -y && chmod +x ./cloudreve && chmod +x ./run.sh && python3 a.py
 CMD ./run.sh
