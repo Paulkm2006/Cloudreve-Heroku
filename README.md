@@ -1,7 +1,7 @@
 # Cloudreve-Heroku with Redis + Cleardb Mysql(实验性修改)
 Cloudreve with redis的Docker版本
 ---
-一键部署在Heroku上：[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/useblue/Cloudreve-Heroku/tree/Heroku-mysql)
+一键部署在Heroku上：[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Paulkm2006/Cloudreve-Heroku/tree/Heroku-mysql)
 
 ---
 ## 关于（目前）
