@@ -1,4 +1,5 @@
 #!/bin/sh
+python3 a.py
 cat <<-EOF > /root/cloudreve/conf.ini
 [System]
 ; 运行模式
