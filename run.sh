@@ -10,9 +10,9 @@ Debug = false
 SessionSecret = DwueqsOCChydmVIgTFtXNsqGNh3iUVOVyjdyBHPTppjG7FP1SiQYBOSZdOf35Pm7
 HashIDSalt = LzCgoB9pLdHYwsPQJ46AIDtLfkZ4KbtprcI8cxoKnwj58kFctbc9q3CmTUdXsCFP
 [Redis]
-Server = 127.0.0.1:6379
-Password =
-DB = 0
+Server = $redis_host
+Password = $redis_pwd
+DB = $redis_db
 [Database]
 ; 数据库类型，目前支持 sqlite | mysql
 Type = mysql
