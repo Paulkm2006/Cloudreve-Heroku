@@ -9,3 +9,5 @@ os.putenv('DB_Host',mysql_str[42:104])
 os.putenv('DB_User',mysql_str[8:24])
 os.putenv('DB_Password',mysql_str[25:41])
 os.putenv('DB_Name',mysql_str[105:121])
+
+print(redis_str[16:48])
